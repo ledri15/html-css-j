@@ -1,0 +1,36 @@
+div.gallery{
+    margin: 5xp;
+    border: 1xp solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover{
+    border: 1px ;
+}
+p[class*='ds']{
+    background: blue;
+    color: white;
+    padding: 20px;
+
+}
+div[id~='ds']{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+img[title^='zhegrova1']{
+    border: 2px solid yellow;
+}
+h1[class |=heading]{
+    background: purple;
+    padding: 20px;
+    color:white
+}
+
+input[placeholder $='name']{
+
+    border: 2px solid red;
+}
+input[readonly]{
+    border: 2px solid green;
+}
