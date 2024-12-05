@@ -3,12 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
-    color: #333;
+    color: #e67e22;
 }
 
 
 header {
-    background-color: #2c3e50;
+    background-color: coral;
     color: white;
     padding: 20px 50px;
     display: flex;
@@ -42,7 +42,6 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
-/* Hero Section */
 .hero {
     background: url('restaurant-hero.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -93,7 +92,7 @@ nav ul li a:hover {
     background-color: #e67e22;
 }
 
-/* Menu Section */
+
 .menu {
     padding: 80px 50px;
     background-color: #ffffff;
