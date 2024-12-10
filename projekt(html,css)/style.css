@@ -38,10 +38,6 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #f39c12;
-}
-
 .hero {
     background: url('restaurant-hero.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -88,9 +84,8 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
-    background-color: #e67e22;
-}
+
+
 
 
 .menu {
@@ -157,11 +152,6 @@ nav ul li a:hover {
     color: #555;
 }
 
-.item-details span {
-    font-size: 18px;
-    font-weight: bold;
-    color: #f39c12;
-}
 
 .specials {
     background-color: #fff3e0;
